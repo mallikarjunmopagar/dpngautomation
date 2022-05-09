@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="0.359" tests="7" errors="0" skipped="0" failures="6">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17+35-2724"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\JAVA\jdk-17\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Mallikarjun.Mopagar\eclipse-workspace\D\D"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Mallikarjun.Mopagar\eclipse-workspace\D\D"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="17+35-2724"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\MALLIK~1.MOP\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Mallikarjun.Mopagar\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf14670115430796664382.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\JAVA\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/JAVA/jdk-17/bin/server;C:/Program Files/JAVA/jdk-17/bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\JAVA\jdk-17\bin;C:\Users\Mallikarjun.Mopagar\AppData\Local\Microsoft\WindowsApps;;C:\Users\Mallikarjun.Mopagar\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Mallikarjun.Mopagar\Desktop;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Mallikarjun.Mopagar"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="Mallikarjun.Mopagar"/>
+    <property name="java.class.path" value="C:\Users\Mallikarjun.Mopagar\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.18.1.20211011-2139\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.home" value="C:\Program Files\JAVA\jdk-17"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Mallikarjun.Mopagar\eclipse-workspace\D\D\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2021-09-14"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="aDoLogin" classname="pageObjects.testcaseImplement" time="0.021">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.fail(Assert.java:106)
+	at pageObjects.testcaseImplement.aDoLogin(testcaseImplement.java:19)
+</failure>
+  </testcase>
+  <testcase name="cDoLogin" classname="pageObjects.testcaseImplement" time="0.001">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.fail(Assert.java:106)
+	at pageObjects.testcaseImplement.cDoLogin(testcaseImplement.java:27)
+</failure>
+  </testcase>
+  <testcase name="testcaseimplement1" classname="pageObjects.testcaseImplement" time="0.337">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertFalse(Assert.java:67)
+	at org.testng.Assert.assertFalse(Assert.java:77)
+	at pageObjects.testcaseImplement.testcaseimplement1(testcaseImplement.java:42)
+</failure>
+    <system-out><![CDATA[Expected attribute value 'AFBWrT80HuifxJ8qJqVH9g==' but was 'AFBWrT80HhuifxJ8qJqVH9g==' 
+Expected attribute value '1566.20' but was '15688.20' 
+]]></system-out>
+  </testcase>
+  <testcase name="testcaseimplement1" classname="pageObjects.testcaseImplement" time="0.047">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertFalse(Assert.java:67)
+	at org.testng.Assert.assertFalse(Assert.java:77)
+	at pageObjects.testcaseImplement.testcaseimplement1(testcaseImplement.java:42)
+</failure>
+    <system-out><![CDATA[Expected text value '8034832190' but was '8034732190' 
+Expected element tag name 'phone1' but was 'phone' 
+Expected text value '9813267465' but was '9816783267465' 
+]]></system-out>
+  </testcase>
+  <testcase name="testcaseimplement1" classname="pageObjects.testcaseImplement" time="0.024"/>
+  <testcase name="testcaseimplement1" classname="pageObjects.testcaseImplement" time="0.046">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertFalse(Assert.java:67)
+	at org.testng.Assert.assertFalse(Assert.java:77)
+	at pageObjects.testcaseImplement.testcaseimplement1(testcaseImplement.java:42)
+</failure>
+    <system-out><![CDATA[Expected element tag name 'DPNGPricingResponse' but was 'employees' 
+Expected number of attributes '10' but was '0' 
+Expected attribute name '/DPNGPricingResponse[1]/@designId' 
+Expected attribute name '/DPNGPricingResponse[1]/@designNo' 
+Expected attribute name '/DPNGPricingResponse[1]/@dpngRunId' 
+Expected attribute name '/DPNGPricingResponse[1]/@dpngRunStatus' 
+Expected attribute name '/DPNGPricingResponse[1]/@dpngRunStatusMsg' 
+Expected attribute name '/DPNGPricingResponse[1]/@effDate' 
+Expected attribute name '/DPNGPricingResponse[1]/@procDate' 
+Expected attribute name '/DPNGPricingResponse[1]/@requestDate' 
+Expected attribute name '/DPNGPricingResponse[1]/@requestId' 
+Expected attribute name '/DPNGPricingResponse[1]/@requester' 
+Expected child nodelist length '3' but was '6' 
+Expected element tag name 'WorkRequests' but was 'employee' 
+Expected number of attributes '0' but was '1' 
+Expected attribute name '/DPNGPricingResponse[1]/WorkRequests[1]' 
+Expected element tag name 'WorkRequest' but was 'name' 
+Expected number of attributes '4' but was '0' 
+Expected attribute name '/DPNGPricingResponse[1]/WorkRequests[1]/WorkRequest[1]/@workOrderNo' 
+Expected attribute name '/DPNGPricingResponse[1]/WorkRequests[1]/WorkRequest[1]/@workRequestId' 
+Expected attribute name '/DPNGPricingResponse[1]/WorkRequests[1]/WorkRequest[1]/@workRequestNo' 
+Expected attribute name '/DPNGPricingResponse[1]/WorkRequests[1]/WorkRequest[1]/@wt' 
+Expected child 'Reports' but was 'null' 
+Expected child 'null' but was '#text' 
+Expected element tag name 'WorkRequest' but was 'department' 
+Expected number of attributes '4' but was '0' 
+Expected attribute name '/DPNGPricingResponse[1]/WorkRequests[1]/WorkRequest[2]/@workOrderNo' 
+Expected attribute name '/DPNGPricingResponse[1]/WorkRequests[1]/WorkRequest[2]/@workRequestId' 
+Expected attribute name '/DPNGPricingResponse[1]/WorkRequests[1]/WorkRequest[2]/@workRequestNo' 
+Expected attribute name '/DPNGPricingResponse[1]/WorkRequests[1]/WorkRequest[2]/@wt' 
+Expected child 'Reports' but was 'null' 
+Expected child 'null' but was '#text' 
+Expected element tag name 'WorkRequest' but was 'phone' 
+Expected number of attributes '4' but was '0' 
+Expected attribute name '/DPNGPricingResponse[1]/WorkRequests[1]/WorkRequest[3]/@workOrderNo' 
+Expected attribute name '/DPNGPricingResponse[1]/WorkRequests[1]/WorkRequest[3]/@workRequestId' 
+Expected attribute name '/DPNGPricingResponse[1]/WorkRequests[1]/WorkRequest[3]/@workRequestNo' 
+Expected attribute name '/DPNGPricingResponse[1]/WorkRequests[1]/WorkRequest[3]/@wt' 
+Expected child 'Reports' but was 'null' 
+Expected child 'null' but was '#text' 
+Expected child 'null' but was 'phone' 
+Expected child 'null' but was 'phone1' 
+Expected child 'null' but was 'phone' 
+]]></system-out>
+  </testcase>
+  <testcase name="testcaseimplement1" classname="pageObjects.testcaseImplement" time="0.024">
+    <failure message="Stream Closed" type="org.xmlunit.XMLUnitException"><![CDATA[org.xmlunit.XMLUnitException: Stream Closed
+	at java.base/java.io.FileInputStream.read0(Native Method)
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:228)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLEntityManager$RewindableInputStream.readAndBuffer(XMLEntityManager.java:3027)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:705)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:150)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:861)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:247)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at org.xmlunit.util.Convert.toDocument(Convert.java:141)
+	at org.xmlunit.util.Convert.toDocument(Convert.java:104)
+	at org.xmlunit.input.WhitespaceStrippedSource.<init>(WhitespaceStrippedSource.java:40)
+	at org.xmlunit.builder.DiffBuilder.wrap(DiffBuilder.java:421)
+	at org.xmlunit.builder.DiffBuilder.build(DiffBuilder.java:410)
+	at pageObjects.ImplementCompareXMLandLog.filterAttributeandComparefiles(ImplementCompareXMLandLog.java:48)
+	at pageObjects.testcaseImplement.testcaseimplement1(testcaseImplement.java:35)
+]]></failure>
+    <system-err><![CDATA[java.io.FileNotFoundException: C:\Users\Mallikarjun.Mopagar\Desktop\Sempra\nill.xml (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at pageObjects.ImplementCompareXMLandLog.filterAttributeandComparefiles(ImplementCompareXMLandLog.java:34)
+	at pageObjects.testcaseImplement.testcaseimplement1(testcaseImplement.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]></system-err>
+  </testcase>
+</testsuite>

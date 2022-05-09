@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="extentlisteners.ExtentListeners">
+
+		</listener>
+	</listeners>
+	<test name="CompareTest1" enabled="false">
+		<classes>
+			<class name="testdesignsgenerated.TestFirstDesignStream" />
+		</classes>
+		</test>
+		<test name="CompareTest2" enabled="false">
+			<classes>
+				<class name="testdesignsgenerated.TestSecondDesignStream" />
+			</classes>
+			</test>
+			<test name="CompareTest3" enabled="false">
+				<classes>
+					<class name="testdesignsgenerated.TestThirdDesignStream" />
+				</classes>
+				</test>
+				
+				<test name="implement" enabled="true">
+		<classes>
+			<class name="pageObjects.testcaseImplement"/>
+		</classes>
+		</test>
+				
+ <!-- Test -->
+</suite> <!-- Suite -->

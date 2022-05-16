@@ -1,4 +1,0 @@
-12:21:54.170 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet9.xml'
-12:21:54.182 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet10.xml'
-14:53:36.837 [main] ERROR org.apache.poi.openxml4j.opc.ZipPackage - Error in zip file C:Usersskondapeeclipse-workspaceDPNGsrc	estesourcesexcelTestdata.xlsx - falling back to stream processing (i.e. ignoring zip central directory)
-14:55:57.120 [main] ERROR org.apache.poi.openxml4j.opc.ZipPackage - Error in zip file C:Usersskondapeeclipse-workspaceDPNGsrc	estesourcesexcelTestdata.xlsx - falling back to stream processing (i.e. ignoring zip central directory)

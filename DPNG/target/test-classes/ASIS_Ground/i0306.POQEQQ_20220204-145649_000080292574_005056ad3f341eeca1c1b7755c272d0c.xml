@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DPNGPricingRequest requestId="AFBWrT80Huyhwbd1XCbNDA==" requestDate="2022-02-04T14:56:48" designId="AFBWrQvWHummip6554Cb3g==" designNo="000080292574" procDate="2022-02-04T14:56:48" effDate="2022-02-04T14:56:48" workOrderNumber="000004168748" resComAcctType="3" district="NRE" requester="AMCNEEL">
+  <WorkRequests>
+    <WorkRequest workRequestId="AFBWrQvWHummip6554Db3g==" workRequestNo="0001" wt="G142" ai="N" co="B" taxGrossUpFactorGas="0.24">
+      <Costs>
+        <Cost cc="GO" at="O" wf="I" wr="U" mr="U" matl1="28.54" exmatl1="5.71" matl_pw1="3.58" lbr1="70.17" eqp1="20.72" lbr_ind1="42.66" eag1="3.88" matl2="28.54" exmatl2="5.71" matl_pw2="3.58" lbr2="70.17" eqp2="20.72" lbr_ind2="42.66" eag2="3.88"></Cost>
+        <Cost cc="PI" at="O" wf="I" wr="U" mr="U" matl1="403.15" exmatl1="80.63" matl_pw1="50.66" lbr1="140.33" eqp1="39.72" lbr_ind1="84.64" eag1="20.32" matl2="403.15" exmatl2="80.63" matl_pw2="50.66" lbr2="140.33" eqp2="39.72" lbr_ind2="84.64" eag2="20.32"></Cost>
+      </Costs>
+      <RelatedWorkRequests>
+        <RelatedWorkRequest workRequestId="AFBWrUAfHtmmnKXX+n0vRQ==" workRequestNo="0001" wt="G150" workOrderNo="000004168828">
+          <Reports>
+            <Report key="ccReport">
+              <Values>
+                <Value key="cc017" val=""></Value>
+                <Value key="cc021" val=""></Value>
+                <Value key="cc046" val=""></Value>
+                <Value key="cc033" val=""></Value>
+                <Value key="cc022" val=""></Value>
+                <Value key="cc011" val=""></Value>
+                <Value key="cc048" val=""></Value>
+                <Value key="cc051" val=""></Value>
+                <Value key="cc044" val=""></Value>
+                <Value key="cc049" val=""></Value>
+                <Value key="cc024" val=""></Value>
+                <Value key="cc013" val=""></Value>
+                <Value key="cc052" val=""></Value>
+                <Value key="cc059" val=""></Value>
+                <Value key="cc053" val=""></Value>
+                <Value key="cc054" val=""></Value>
+                <Value key="cc041" val=""></Value>
+                <Value key="cc055" val=""></Value>
+                <Value key="cc042" val=""></Value>
+                <Value key="cc034" val=""></Value>
+                <Value key="cc004" val=""></Value>
+                <Value key="cc029" val=""></Value>
+                <Value key="cc057" val=""></Value>
+                <Value key="cc037" val=""></Value>
+                <Value key="cc039" val=""></Value>
+                <Value key="cc040" val=""></Value>
+                <Value key="cc009" val="880.92"></Value>
+                <Value key="cc006" val="880.92"></Value>
+                <Value key="cc005" val=""></Value>
+                <Value key="cc015" val=""></Value>
+                <Value key="cc018" val=""></Value>
+                <Value key="cc030" val=""></Value>
+                <Value key="cc023" val=""></Value>
+                <Value key="cc007" val=""></Value>
+                <Value key="cc001" val=""></Value>
+                <Value key="cc008" val=""></Value>
+                <Value key="cc014" val=""></Value>
+                <Value key="cc016" val=""></Value>
+                <Value key="cc012" val=""></Value>
+                <Value key="cc025" val=""></Value>
+                <Value key="cc002" val=""></Value>
+                <Value key="cc045" val=""></Value>
+                <Value key="cc019" val=""></Value>
+                <Value key="cc026" val=""></Value>
+                <Value key="cc031" val=""></Value>
+                <Value key="cc032" val=""></Value>
+                <Value key="cc003" val=""></Value>
+                <Value key="po" val=""></Value>
+                <Value key="cc010" val=""></Value>
+                <Value key="cc020" val=""></Value>
+                <Value key="rule15D6CElectricDiscountFactor" val=""></Value>
+                <Value key="cc072" val=""></Value>
+                <Value key="cc071" val=""></Value>
+                <Value key="cc089" val=""></Value>
+                <Value key="cc076" val=""></Value>
+                <Value key="cc075" val=""></Value>
+                <Value key="cc068" val=""></Value>
+                <Value key="cc077" val=""></Value>
+                <Value key="cc078" val=""></Value>
+                <Value key="cc095" val=""></Value>
+                <Value key="cc080" val=""></Value>
+                <Value key="cc099" val=""></Value>
+                <Value key="cc098" val=""></Value>
+                <Value key="cc074" val=""></Value>
+                <Value key="cc096" val=""></Value>
+                <Value key="cc093" val=""></Value>
+                <Value key="cc092" val=""></Value>
+                <Value key="cc091" val=""></Value>
+                <Value key="cc090" val=""></Value>
+                <Value key="cc081" val=""></Value>
+                <Value key="cc082" val=""></Value>
+                <Value key="cc083" val=""></Value>
+                <Value key="cc087" val=""></Value>
+                <Value key="cc086" val=""></Value>
+                <Value key="cc085" val=""></Value>
+                <Value key="cc084" val=""></Value>
+                <Value key="cc066" val=""></Value>
+                <Value key="cc056" val=""></Value>
+                <Value key="cc061" val=""></Value>
+                <Value key="cc027" val=""></Value>
+                <Value key="cc058" val=""></Value>
+                <Value key="cc036" val=""></Value>
+                <Value key="depreciation" val=""></Value>
+                <Value key="cc028" val=""></Value>
+                <Value key="cc063" val=""></Value>
+                <Value key="cc035" val=""></Value>
+                <Value key="cc050" val=""></Value>
+                <Value key="cc060" val=""></Value>
+                <Value key="cc047" val=""></Value>
+                <Value key="cc038" val=""></Value>
+                <Value key="cc097" val=""></Value>
+                <Value key="cc043" val=""></Value>
+                <Value key="cc062" val=""></Value>
+                <Value key="cc079" val=""></Value>
+                <Value key="cc067" val=""></Value>
+                <Value key="cc064" val=""></Value>
+                <Value key="cc070" val=""></Value>
+                <Value key="cc073" val=""></Value>
+                <Value key="cc065" val=""></Value>
+                <Value key="cc094" val=""></Value>
+                <Value key="cc088" val=""></Value>
+                <Value key="cc069" val=""></Value>
+              </Values>
+            </Report>
+            <Report key="costAnalysisReport">
+              <Values>
+                <Value key="wu8" val=""></Value>
+                <Value key="wu10" val=""></Value>
+                <Value key="wu9" val=""></Value>
+                <Value key="tt30" val=""></Value>
+                <Value key="wu1" val=""></Value>
+                <Value key="wu4" val=""></Value>
+                <Value key="wu5" val=""></Value>
+                <Value key="wu2" val=""></Value>
+                <Value key="wu23" val=""></Value>
+                <Value key="wu21" val=""></Value>
+                <Value key="wu18" val=""></Value>
+                <Value key="wu15" val=""></Value>
+                <Value key="wu16" val=""></Value>
+                <Value key="wu19" val=""></Value>
+                <Value key="wu17" val=""></Value>
+                <Value key="wu12" val=""></Value>
+                <Value key="wu11" val=""></Value>
+                <Value key="wu14" val=""></Value>
+                <Value key="wu24" val=""></Value>
+                <Value key="wu41" val="2756.62"></Value>
+                <Value key="wu44" val="2811.54"></Value>
+                <Value key="wu38" val="1290.24"></Value>
+                <Value key="wu40" val="465.38"></Value>
+                <Value key="wu42" val="54.91"></Value>
+                <Value key="wu39" val="902.45"></Value>
+                <Value key="tt46" val="2811.54"></Value>
+                <Value key="wu35" val="4.20"></Value>
+                <Value key="wu31" val="66.45"></Value>
+                <Value key="wu34" val="94.36"></Value>
+                <Value key="wu32" val="27.91"></Value>
+                <Value key="tt28" val=""></Value>
+                <Value key="wu28" val=""></Value>
+                <Value key="wu29" val=""></Value>
+                <Value key="wu37" val=""></Value>
+                <Value key="wu36" val=""></Value>
+                <Value key="wu3" val=""></Value>
+                <Value key="wu30" val=""></Value>
+                <Value key="wu33" val=""></Value>
+                <Value key="wu43" val=""></Value>
+                <Value key="wu27" val=""></Value>
+                <Value key="wu45" val=""></Value>
+                <Value key="wu46" val=""></Value>
+                <Value key="wu26" val=""></Value>
+                <Value key="wu25" val=""></Value>
+                <Value key="wu6" val=""></Value>
+                <Value key="tt29" val=""></Value>
+                <Value key="tt27" val=""></Value>
+                <Value key="tt25" val=""></Value>
+                <Value key="tt26" val=""></Value>
+                <Value key="tt45" val=""></Value>
+                <Value key="wu22" val=""></Value>
+                <Value key="wu20" val=""></Value>
+                <Value key="wu13" val=""></Value>
+                <Value key="wu7" val=""></Value>
+              </Values>
+            </Report>
+            <Report key="costReport">
+              <Values>
+                <Value key="bs1" val="880.92"></Value>
+                <Value key="bs13" val="880.92"></Value>
+                <Value key="bs3" val=""></Value>
+                <Value key="bs11" val=""></Value>
+                <Value key="bs7" val=""></Value>
+                <Value key="bs4" val="880.92"></Value>
+                <Value key="bs6" val="881"></Value>
+                <Value key="bs9" val="70.30"></Value>
+                <Value key="bs5" val=""></Value>
+                <Value key="bs10" val="19.45"></Value>
+                <Value key="tx1" val=""></Value>
+                <Value key="bs2" val=""></Value>
+                <Value key="bs12" val=""></Value>
+                <Value key="tx5" val=""></Value>
+                <Value key="bs8" val="791.17"></Value>
+                <Value key="tx6" val=""></Value>
+              </Values>
+            </Report>
+          </Reports>
+        </RelatedWorkRequest>
+      </RelatedWorkRequests>
+    </WorkRequest>
+    <WorkRequest workRequestId="AFBWrQvWHummip6554Ib3g==" workRequestNo="0002" wt="G142" ai="N" co="B" taxGrossUpFactorGas="0.24">
+      <Costs>
+        <Cost cc="ME" at="O" wf="I" wr="U" mr="U" matl2="113.2" exmatl2="22.64" matl_pw2="14.23" lbr2="19.25" eqp2="7.67" lbr_ind2="11.88" eag2="4.87"></Cost>
+        <Cost cc="GO" at="O" wf="I" wr="U" mr="U" matl2="861.62" exmatl2="67.3" matl_pw2="42.29" lbr2="38.5" eqp2="15.34" lbr_ind2="23.76" eag2="13.73"></Cost>
+      </Costs>
+    </WorkRequest>
+  </WorkRequests>
+</DPNGPricingRequest>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DPNGPricingRequest requestId="AFBWrT80HuyhwuwRub1NFA==" requestDate="2022-02-04T16:05:50" designId="AFBWrUKrHtyhwOiwh9TRsg==" designNo="000080511811" procDate="2022-02-04T16:05:50" effDate="2022-02-04T16:05:50" workOrderNumber="000004281101" resComAcctType="1" district="BCH" requester="AMCNEEL" trvlStdFactor="0.3333">
+  <WorkRequests>
+    <WorkRequest workRequestId="AFBWrUKrHtyhwOiwh9URsg==" workRequestNo="0001" wt="P886" ai="N" co="A">
+      <Costs>
+        <Cost cc="PF" at="C" wf="R" wr="U" matl1="352.35" exmatl1="31.71" matl_pw1="44.31" lbr1="985.74" eqp1="680.37" lbr_ind1="704.82" eag1="1276.38"></Cost>
+        <Cost cc="PF" at="C" wf="I" wr="U" mr="U" matl1="39.16" exmatl1="3.52" matl_pw1="4.92" lbr1="93.98" eqp1="66.26" lbr_ind1="67.82" eag1="122.1"></Cost>
+      </Costs>
+    </WorkRequest>
+  </WorkRequests>
+</DPNGPricingRequest>

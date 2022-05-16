@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DPNGPricingRequest requestId="AFBWrT80Huyhwcsh/6nNDQ==" requestDate="2022-02-04T15:01:11" designId="AFBWrUAfHuyG4La2lF8epw==" designNo="000080489197" procDate="2022-02-04T15:01:11" effDate="2022-02-04T15:01:11" workOrderNumber="000004272045" resComAcctType="3" district="BCH" requester="AMCNEEL" trvlStdFactor="0.3793">
+  <WorkRequests>
+    <WorkRequest workRequestId="AFBWrRU+HtyG4laMTc4IWQ==" workRequestNo="0001" wt="G422" ai="N" co="A" depreciation="16000.0" taxGrossUpFactorGas="0.24" aiInspectionRateGas="0.45" contFactor="0.2">
+      <Costs>
+        <Cost cc="TB" at="C" wf="I" wr="U" mr="U" matl1="89987.87" exmatl1="17997.58" matl_pw1="11560.95" lbr1="73598.84" eqp1="99002.88" lbr_ind1="44540.94" eag1="62723.83" matl2="89987.87" exmatl2="17997.58" matl_pw2="11560.95" lbr2="73598.84" eqp2="99002.88" lbr_ind2="44540.94" eag2="62723.83"></Cost>
+        <Cost cc="GO" at="C" wf="I" wr="U" mr="U" matl1="2000.0" matl_pw1="179.2" lbr1="76236.93" eqp1="6784.77" lbr_ind1="13428.64" eag1="18187.5" matl2="2000.0" matl_pw2="179.2" lbr2="76236.93" eqp2="6784.77" lbr_ind2="13428.64" eag2="18187.5"></Cost>
+        <Cost cc="PI" at="C" wf="I" wr="U" mr="U" matl1="82899.42" exmatl1="16579.89" matl_pw1="10576.06" lbr1="54987.85" eqp1="63264.88" lbr_ind1="33056.19" eag1="47587.2" matl2="82899.42" exmatl2="16579.89" matl_pw2="10576.06" lbr2="54987.85" eqp2="63264.88" lbr_ind2="33056.19" eag2="47587.2"></Cost>
+        <Cost cc="SR" at="C" wf="I" wr="U" mr="U" matl1="16180.93" exmatl1="3236.19" matl_pw1="2153.02" lbr1="9822.78" eqp1="41044.92" lbr_ind1="6158.09" eag1="9484.09" matl2="16180.93" exmatl2="3236.19" matl_pw2="2153.02" lbr2="9822.78" eqp2="41044.92" lbr_ind2="6158.09" eag2="9484.09"></Cost>
+        <Cost cc="PI" at="C" wf="R" wr="U" matl_pw1="48.21" lbr1="10572.03" eqp1="17521.49" lbr_ind1="6317.91" eag1="8284.77" matl_pw2="48.21" lbr2="10572.03" eqp2="17521.49" lbr_ind2="6317.91" eag2="8284.77"></Cost>
+      </Costs>
+    </WorkRequest>
+  </WorkRequests>
+</DPNGPricingRequest>

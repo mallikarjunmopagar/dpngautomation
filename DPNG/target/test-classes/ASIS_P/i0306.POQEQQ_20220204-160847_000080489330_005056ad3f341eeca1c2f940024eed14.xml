@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DPNGPricingRequest requestId="AFBWrT80HuyhwvlAAk6NFA==" requestDate="2022-02-04T16:08:46" designId="AFBWrSMfHtyG49a5dkgNkg==" designNo="000080489330" procDate="2022-02-04T16:08:46" effDate="2022-02-04T16:08:46" workOrderNumber="000004272106" resComAcctType="1" district="RAM" requester="AMCNEEL" trvlStdFactor="0.3333">
+  <WorkRequests>
+    <WorkRequest workRequestId="AFBWrW1yHtyQr87qezQO5A==" workRequestNo="0001" wt="P565" ai="N" co="A">
+      <Costs>
+        <Cost cc="PF" at="C" wf="I" wr="U" mr="U" matl1="6416.56" exmatl1="577.5" matl_pw1="806.55" lbr1="371.96" eqp1="278.45" lbr_ind1="263.82" eag1="893.1"></Cost>
+        <Cost cc="WI" at="C" wf="I" wr="U" mr="U" matl1="775.0" exmatl1="69.74" matl_pw1="97.4" lbr1="1292.18" eqp1="911.16" lbr_ind1="932.89" eag1="1693.77"></Cost>
+        <Cost cc="EQ" at="C" wf="I" wr="U" mr="U" matl1="1322.81" exmatl1="119.05" matl_pw1="166.28" lbr1="297.89" eqp1="207.09" lbr_ind1="209.43" eag1="465.44"></Cost>
+        <Cost cc="XF" at="C" wf="I" wr="U" mr="U" matl1="1048.35"></Cost>
+        <Cost cc="OO" at="C" wf="I" wr="U" mr="U" matl1="608.57" exmatl1="54.77" matl_pw1="76.51" lbr1="1983.72" eqp1="1344.18" lbr_ind1="1418.6" eag1="2562.23"></Cost>
+        <Cost cc="PF" at="C" wf="R" wr="U" lbr1="165.92" eqp1="120.22" lbr_ind1="117.85" eag1="210.98"></Cost>
+        <Cost cc="EQ" at="C" wf="R" wr="U"></Cost>
+        <Cost cc="WI" at="C" wf="R" wr="U" matl1="194.85" exmatl1="17.54" matl_pw1="24.5" eag1="12.74"></Cost>
+        <Cost cc="XF" at="C" wf="R" wr="U"></Cost>
+        <Cost cc="SP" at="C" wf="I" wr="U" mr="U" matl1="85.0" exmatl1="7.65" matl_pw1="10.68" eag1="5.58"></Cost>
+      </Costs>
+    </WorkRequest>
+  </WorkRequests>
+</DPNGPricingRequest>

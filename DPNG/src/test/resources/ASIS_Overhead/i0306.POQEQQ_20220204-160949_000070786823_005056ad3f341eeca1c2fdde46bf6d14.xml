@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DPNGPricingRequest requestId="AFBWrT80Huyhwv3eRr8NFA==" requestDate="2022-02-04T16:09:38" designId="AFBWrWJBHuuSvQw3128CcA==" designNo="000070786823" procDate="2022-02-04T16:09:38" effDate="2022-02-04T16:09:38" workOrderNumber="000004213961" resComAcctType="1" district="CMT" requester="AMCNEEL" trvlStdFactor="0.1429">
+  <WorkRequests>
+    <WorkRequest workRequestId="AFBWrWJBHuuSvQw3129CcA==" workRequestNo="0001" wt="O304" ai="N" co="A">
+      <Costs>
+        <Cost cc="PF" at="C" wf="I" wr="U" mr="U" matl1="2047.7" exmatl1="204.98" matl_pw1="257.26" lbr1="12364.14" eqp1="5752.63" lbr_ind1="8049.76" eag1="15868.96"></Cost>
+        <Cost cc="EX" at="C" wf="R" wr="U" matl_pw1="38.22" lbr1="13580.29" eqp1="14961.05" lbr_ind1="8114.01" eag1="17642.74"></Cost>
+        <Cost cc="SR" at="C" wf="I" wr="U" mr="U" matl1="3272.85" exmatl1="327.6" matl_pw1="412.02" lbr1="15815.52" eqp1="5401.83" lbr_ind1="9599.94" eag1="20341.65"></Cost>
+        <Cost cc="PF" at="C" wf="R" wr="U" lbr1="57822.88" eqp1="40489.47" lbr_ind1="41611.31" eag1="73523.0"></Cost>
+        <Cost cc="OO" at="C" wf="I" wr="U" mr="U"></Cost>
+      </Costs>
+    </WorkRequest>
+  </WorkRequests>
+</DPNGPricingRequest>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DPNGPricingRequest requestId="AFBWrT80Huyhwc1N8Y7NDQ==" requestDate="2022-02-04T15:01:41" designId="AFBWrW1yHtyIqBeQ2RNdSA==" designNo="000080491283" procDate="2022-02-04T15:01:41" effDate="2022-02-04T15:01:41" workOrderNumber="000004273288" resComAcctType="3" district="NRE" requester="AMCNEEL" trvlStdFactor="0.2121">
+  <WorkRequests>
+    <WorkRequest workRequestId="AFBWrW1yHtyIqBeQ2ROdSA==" workRequestNo="0001" wt="O428" ai="N" co="A">
+      <Costs>
+        <Cost cc="WI" at="C" wf="I" wr="U" mr="U" matl1="110.81" exmatl1="9.97" matl_pw1="13.93" lbr1="182.48" eqp1="117.2" lbr_ind1="127.35" eag1="239.34" matl2="110.81" exmatl2="9.97" matl_pw2="13.93" lbr2="182.48" eqp2="117.2" lbr_ind2="127.35" eag2="239.34"></Cost>
+        <Cost cc="XF" at="C" wf="R" wr="U" matl1="0.01" lbr1="117.47" eqp1="82.85" lbr_ind1="84.84" eag1="4.8" matl2="0.01" lbr2="117.47" eqp2="82.85" lbr_ind2="84.84" eag2="4.8"></Cost>
+        <Cost cc="XF" at="C" wf="I" wr="U" mr="U" matl1="1048.35" exmatl1="94.35" matl_pw1="131.78" lbr1="164.46" eqp1="115.98" lbr_ind1="118.76" eag1="277.73" matl2="1048.35" exmatl2="94.35" matl_pw2="131.78" lbr2="164.46" eqp2="115.98" lbr_ind2="118.76" eag2="277.73"></Cost>
+        <Cost cc="EQ" at="C" wf="I" wr="U" mr="U" matl1="929.84" exmatl1="83.69" matl_pw1="116.89" lbr1="93.98" eqp1="88.49" lbr_ind1="69.62" eag1="180.39" matl2="929.84" exmatl2="83.69" matl_pw2="116.89" lbr2="93.98" eqp2="88.49" lbr_ind2="69.62" eag2="180.39"></Cost>
+        <Cost cc="OO" at="C" wf="I" wr="U" mr="U" matl1="243.22" exmatl1="21.89" matl_pw1="30.58" lbr1="46.99" eqp1="33.13" lbr_ind1="33.91" eag1="75.68" matl2="243.22" exmatl2="21.89" matl_pw2="30.58" lbr2="46.99" eqp2="33.13" lbr_ind2="33.91" eag2="75.68"></Cost>
+      </Costs>
+    </WorkRequest>
+  </WorkRequests>
+</DPNGPricingRequest>

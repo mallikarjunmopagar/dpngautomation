@@ -1,0 +1,8 @@
+y,dpngsource.xml,dpngsource.xml,Same Files worktype1
+y,dpngsource.xml,dpngsourceDataIncorrect.xml,file with differences Ex
+N,dpngsource1.xml,lastchildmissing.xml,lastchild missing Ex
+y,dpngsource2.xml,unorderedelementtags.xml,unordered element Ex
+N,dpngsource.xml,dpngsource.xml,similar files
+N,dpngsource1.xml,lastchildmissing.xml,worktype6
+y,dpngsource.xml,dpngsource.xml,worktype7
+y,dpngsource.xml,dpngsource2.xml,worktype8

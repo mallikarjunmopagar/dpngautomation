@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DPNGPricingRequest requestId="AFBWrT80Huyhwy6oMceNFA==" requestDate="2022-02-04T16:20:43" designId="gnfrDToCHtq7xHqQPriYig==" designNo="000080387727" procDate="2022-02-04T16:20:43" effDate="2022-02-04T16:20:43" workOrderNumber="000004220616" resComAcctType="1" district="CMT" requester="AMCNEEL" trvlStdFactor="0.3333">
+  <WorkRequests>
+    <WorkRequest workRequestId="gnfrDToCHtq92iOi/ELM5A==" workRequestNo="0001" wt="U247" ai="N" co="D">
+      <Costs>
+        <Cost cc="CC" at="C" wf="I" wr="U" mr="U" matl1="1005.41" exmatl1="90.5" matl_pw1="126.37" lbr1="616.48" eqp1="432.93" lbr_ind1="384.24" eag1="849.43" matl2="1005.41" exmatl2="90.5" matl_pw2="126.37" lbr2="616.48" eqp2="432.93" lbr_ind2="384.24" eag2="849.43"></Cost>
+        <Cost cc="ME" at="C" wf="I" wr="U" mr="U" matl1="2165.92" exmatl1="194.94" matl_pw1="272.28" eag1="141.84" matl2="2165.92" exmatl2="194.94" matl_pw2="272.28" eag2="141.84"></Cost>
+      </Costs>
+    </WorkRequest>
+  </WorkRequests>
+</DPNGPricingRequest>

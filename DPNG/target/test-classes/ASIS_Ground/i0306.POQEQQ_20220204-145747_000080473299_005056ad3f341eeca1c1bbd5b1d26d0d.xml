@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DPNGPricingRequest requestId="AFBWrT80HuyhwbvVsdINDQ==" requestDate="2022-02-04T14:57:46" designId="gnfpmuoCHtu89o4qGKXdXw==" designNo="000080473299" procDate="2022-02-04T14:57:46" effDate="2022-02-04T14:57:46" workOrderNumber="000004264644" resComAcctType="1" district="NRC" requester="AMCNEEL" trvlStdFactor="0.4286">
+  <WorkRequests>
+    <WorkRequest workRequestId="gnfpmuoCHtu89o4rG6+dXw==" workRequestNo="0001" wt="G167" ai="N" co="B" po="2" allowance="1698.04" rule15D7BGasDiscountFactor="0.5" taxGrossUpFactorGas="0.24" aiInspectionRateGas="0.45">
+      <Costs>
+        <Cost cc="TB" at="C" wf="I" wr="C" mr="C" matl1="37.5" exmatl1="7.5" matl_pw1="4.71" lbr1="337.6" eqp1="107.18" lbr_ind1="204.57" eag1="251.96" matl2="37.5" exmatl2="7.5" matl_pw2="4.71" lbr2="337.6" eqp2="107.18" lbr_ind2="204.57" eag2="251.96"></Cost>
+        <Cost cc="PI" at="C" wf="I" wr="U" mr="U" matl1="950.07" exmatl1="190.0" matl_pw1="119.41" lbr1="1052.48" eqp1="305.96" lbr_ind1="637.99" eag1="839.94" matl2="950.07" exmatl2="190.0" matl_pw2="119.41" lbr2="1052.48" eqp2="305.96" lbr_ind2="637.99" eag2="839.94"></Cost>
+        <Cost cc="GO" at="C" wf="I" wr="U" mr="U" matl1="57.08" exmatl1="11.42" matl_pw1="7.18" lbr1="182.43" eqp1="53.83" lbr_ind1="110.93" eag1="138.58" matl2="57.08" exmatl2="11.42" matl_pw2="7.18" lbr2="182.43" eqp2="53.83" lbr_ind2="110.93" eag2="138.58"></Cost>
+        <Cost cc="JT" at="C" wf="I" wr="C" mr="C" matl1="483.75" exmatl1="96.75" matl_pw1="60.81" eag1="31.68" matl2="483.75" exmatl2="96.75" matl_pw2="60.81" eag2="31.68"></Cost>
+      </Costs>
+    </WorkRequest>
+  </WorkRequests>
+</DPNGPricingRequest>

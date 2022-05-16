@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DPNGPricingRequest requestId="AFBWrT80HuyhwcB+ILYNDQ==" requestDate="2022-02-04T14:58:49" designId="AFBWrTqNHtyNzZFmHED4MA==" designNo="000080499950" procDate="2022-02-04T14:58:49" effDate="2022-02-04T14:58:49" workOrderNumber="000004277720" resComAcctType="1" district="BCH" requester="AMCNEEL" trvlStdFactor="0.3333">
+  <WorkRequests>
+    <WorkRequest workRequestId="AFBWrUAfHuyNz/oWbFmofg==" workRequestNo="0001" wt="G254" ai="N" co="B" allowance="20920.0" taxGrossUpFactorGas="0.24" aiInspectionRateGas="0.45">
+      <Costs>
+        <Cost cc="PI" at="C" wf="I" wr="U" mr="U" matl1="150.38" exmatl1="30.08" matl_pw1="18.9" lbr1="56.14" eqp1="16.56" lbr_ind1="34.12" eag1="51.25" matl2="150.38" exmatl2="30.08" matl_pw2="18.9" lbr2="56.14" eqp2="16.56" lbr_ind2="34.12" eag2="51.25"></Cost>
+        <Cost cc="ME" at="C" wf="I" wr="U" mr="U" matl2="3282.0" exmatl2="656.4" matl_pw2="412.55" lbr2="271.31" eqp2="49.87" lbr_ind2="160.81" eag2="415.35"></Cost>
+      </Costs>
+    </WorkRequest>
+    <WorkRequest workRequestId="AFBWrUAfHuyNz/oWbFnIfg==" workRequestNo="0002" wt="G254" ai="N" co="B" allowance="10460.0" taxGrossUpFactorGas="0.24" aiInspectionRateGas="0.45">
+      <Costs>
+        <Cost cc="PI" at="C" wf="I" wr="U" mr="U" matl1="150.38" exmatl1="30.08" matl_pw1="18.9" lbr1="56.14" eqp1="16.56" lbr_ind1="34.12" eag1="51.25" matl2="150.38" exmatl2="30.08" matl_pw2="18.9" lbr2="56.14" eqp2="16.56" lbr_ind2="34.12" eag2="51.25"></Cost>
+        <Cost cc="ME" at="C" wf="I" wr="U" mr="U" matl2="1641.0" exmatl2="328.2" matl_pw2="206.27" lbr2="138.21" eqp2="25.41" lbr_ind2="81.94" eag2="209.54"></Cost>
+      </Costs>
+    </WorkRequest>
+    <WorkRequest workRequestId="AFBWrUAfHuyNz/oWbFnofg==" workRequestNo="0003" wt="G254" ai="N" co="B" allowance="10460.0" taxGrossUpFactorGas="0.24" aiInspectionRateGas="0.45">
+      <Costs>
+        <Cost cc="PI" at="C" wf="I" wr="U" mr="U" matl1="150.38" exmatl1="30.08" matl_pw1="18.9" lbr1="56.14" eqp1="16.56" lbr_ind1="34.12" eag1="51.25" matl2="150.38" exmatl2="30.08" matl_pw2="18.9" lbr2="56.14" eqp2="16.56" lbr_ind2="34.12" eag2="51.25"></Cost>
+        <Cost cc="ME" at="C" wf="I" wr="U" mr="U" matl2="1641.0" exmatl2="328.2" matl_pw2="206.27" lbr2="138.21" eqp2="25.41" lbr_ind2="81.94" eag2="209.54"></Cost>
+      </Costs>
+    </WorkRequest>
+    <WorkRequest workRequestId="AFBWrUAfHuyNz/oWbFoIfg==" workRequestNo="0004" wt="G254" ai="N" co="B" allowance="10460.0" taxGrossUpFactorGas="0.24" aiInspectionRateGas="0.45">
+      <Costs>
+        <Cost cc="PI" at="C" wf="I" wr="U" mr="U" matl1="150.38" exmatl1="30.08" matl_pw1="18.9" lbr1="56.14" eqp1="16.56" lbr_ind1="34.12" eag1="51.25" matl2="150.38" exmatl2="30.08" matl_pw2="18.9" lbr2="56.14" eqp2="16.56" lbr_ind2="34.12" eag2="51.25"></Cost>
+        <Cost cc="ME" at="C" wf="I" wr="U" mr="U" matl2="1641.0" exmatl2="328.2" matl_pw2="206.27" lbr2="138.21" eqp2="25.41" lbr_ind2="81.94" eag2="209.54"></Cost>
+      </Costs>
+    </WorkRequest>
+  </WorkRequests>
+</DPNGPricingRequest>

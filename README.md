@@ -1,2 +1,0 @@
-# dpngautomation
-automation pieline

@@ -30,7 +30,7 @@
 			<class name="azureCICD.Test5Excel" />
 		</classes>
 	</test>
-	<test name="Test6" enabled="true">
+	<test name="Test6" enabled="false">
 		<classes>
 			<class name="azureCICD.Test6CSV" />
 		</classes>

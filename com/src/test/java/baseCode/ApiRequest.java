@@ -33,7 +33,7 @@ public class ApiRequest extends ExtentListeners {
 		//FileReader source = new FileReader(srcpath);
 	//	FileReader target = new FileReader(targtpath);
 		try {
-			String request = new FileInputStream(Srcpath);
+			String request = Files.readString(Paths.get(Trgtpath));
 			
 			test.log(Status.INFO, "The API Request File is read.File name:" + Trgtpath);
 

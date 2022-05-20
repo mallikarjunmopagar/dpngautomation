@@ -31,7 +31,11 @@ import org.testng.annotations.Test;
 
 import org.xml.sax.SAXException;
 
-public class ApiRequest extends ExtentListeners {
+import com.aventstack.extentreports.Status;
+
+import extentlisteners.ExtentListeners;
+
+public class dummyclas extends ExtentListeners {
 
 	public static void main(String[] args) throws SAXException, IOException {
 
@@ -97,7 +101,8 @@ public class ApiRequest extends ExtentListeners {
 			try {
 				
 					    String str = response.toString();
-					    BufferedWriter writer = new BufferedWriter(new FileWriter(System.getProperty("user.dir")+"\\src\\test\\resources\\TO_BE_XMLs\\" +destination +"."+"xml"));
+					    String destination="xyz";
+						BufferedWriter writer = new BufferedWriter(new FileWriter(System.getProperty("user.dir")+"\\src\\test\\resources\\TO_BE_XMLs\\" +destination +"."+"xml"));
 					    writer.write(str);
 					    
 					    writer.close();

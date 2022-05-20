@@ -95,8 +95,6 @@ public class ApiRequest extends ExtentListeners {
 
 				System.out.println("Response= " + response.toString());
 	          
-				//public void whenWriteStringUsingBufferedWritter_thenCorrect() 
-					//	  throws IOException {
 				
 			
 				final String directory = LocalDate.now().toString();
@@ -123,13 +121,12 @@ public class ApiRequest extends ExtentListeners {
 						    
 						    writer.close();
 						   
-				}
+				
 				
 				return trgt;
 				
-                
                
-		} 
+		
 	
 }
 }

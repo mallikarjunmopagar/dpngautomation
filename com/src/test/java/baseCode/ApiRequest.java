@@ -35,7 +35,7 @@ import com.aventstack.extentreports.Status;
 
 import extentlisteners.ExtentListeners;
 
-public class dummyclas extends ExtentListeners {
+public class ApiRequest extends ExtentListeners {
 
 	public static void main(String[] args) throws SAXException, IOException {
 

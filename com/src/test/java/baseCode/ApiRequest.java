@@ -104,11 +104,11 @@ public class APIRequest extends ExtentListeners {
 				f.mkdir();
 				*/
 				final String directory = LocalDate.now().toString();
-				File index = new File(System.getProperty("user.dir")+"\\src\\test\\resources\\TOBE_Output_XML\\"+directory);
+				File index = new File(System.getProperty("user.dir")+"\\src\\test\\resources\\"+directory);
 				if (!index.exists())
 				{
 				   //  index.mkdir();
-				     Files.createDirectory(Paths.get(System.getProperty("user.dir")+"\\src\\test\\resources\\TOBE_Output_XML\\", directory));
+				     Files.createDirectory(Paths.get(System.getProperty("user.dir")+"\\src\\test\\resources\\", directory));
 				     System.out.println("Dir Not present. Creating new one!");
 				}else
 				{
@@ -117,12 +117,12 @@ public class APIRequest extends ExtentListeners {
 				}
 				
 				
-				  trgt= System.getProperty("user.dir")+"\\src\\test\\resources\\TOBE_Output_XML\\"+directory+"\\"+destination +"."+"xml";
+				  trgt= System.getProperty("user.dir")+"\\src\\test\\resources\\"+directory+"\\"+destination +"."+"xml";
 				try {
 					
 						    String str = response.toString();
 						
-						    BufferedWriter writer = new BufferedWriter(new FileWriter(System.getProperty("user.dir")+"\\src\\test\\resources\\TOBE_Output_XML\\"+directory+"\\"+destination +"."+"xml"));
+						    BufferedWriter writer = new BufferedWriter(new FileWriter(System.getProperty("user.dir")+"\\src\\test\\resources\\"+directory+"\\"+destination +"."+"xml"));
 						    writer.write(str);
 						    
 						    writer.close();

@@ -35,7 +35,11 @@
 			<class name="azureCICD.Test6CSV" />
 		</classes>
 	</test>
-	
+	<test name="Test6" enabled="true">
+		<classes>
+			<class name="baseCode.ApiRequest" />
+		</classes>
+	</test>
 
 
 </suite> <!-- Suite -->

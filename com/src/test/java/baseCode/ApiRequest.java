@@ -32,8 +32,9 @@ public class ApiRequest extends ExtentListeners {
 		String trgt = null;
 		//FileReader source = new FileReader(srcpath);
 	//	FileReader target = new FileReader(targtpath);
-		
-			String request = "hello";
+		try {
+			String request = new FileInputStream(Srcpath);
+			
 			test.log(Status.INFO, "The API Request File is read.File name:" + Trgtpath);
 
 			//String request = Files.readString(Paths.get(Trgtpath));
@@ -93,10 +94,16 @@ public class ApiRequest extends ExtentListeners {
 				
 				inputStream.close();
 
-				System.out.println("Response= " + response.toString());
+				//System.out.println("Response= " + response.toString());
 	          
+				//public void whenWriteStringUsingBufferedWritter_thenCorrect() 
+					//	  throws IOException {
 				
-			
+			/*	creating datetime directory
+				String dateTime = new DateTime().toString("dd-MM-yy HH:mm:ss");
+				File f = new File("C:\\tmp\\" + dateTime);
+				f.mkdir();
+				*/
 				final String directory = LocalDate.now().toString();
 				File index = new File(System.getProperty("user.dir")+"\\src\\test\\resources\\"+directory);
 				if (!index.exists())
@@ -112,7 +119,7 @@ public class ApiRequest extends ExtentListeners {
 				
 				
 				  trgt= System.getProperty("user.dir")+"\\src\\test\\resources\\"+directory+"\\"+destination +"."+"xml";
-				
+				try {
 					
 						    String str = response.toString();
 						
@@ -121,12 +128,43 @@ public class ApiRequest extends ExtentListeners {
 						    
 						    writer.close();
 						   
-				
-				
+				}
+				catch (Exception e)
+				{
+	                 //System.out.println(e.getMessage());
+	                 test.log(Status.SKIP, "API Response is not saved: " + e.getMessage());
+	     			e.printStackTrace();
+				}
 				return trgt;
 				
+                
                
+		} catch (MalformedURLException E2) {
+			test.log(Status.SKIP, "HTTP Error: " + E2.getMessage());
+			E2.printStackTrace();
+			throw new SkipException("HTTP error");
+
+		}catch (FileNotFoundException|NoSuchFileException e) {
+			test.log(Status.SKIP, "API Request File Not Found: " + Trgtpath);
+			
+			e.printStackTrace();
+			throw new SkipException("API File Not Found");
+
+		} catch (NullPointerException   n2) {
+			test.log(Status.SKIP, "The Target filepath given is NULL: " + Trgtpath);
+			test.log(Status.SKIP, "Error: " + n2.getMessage());
+			n2.printStackTrace();
+			throw new SkipException("Null Pionter Exception");
+
+		}catch (Exception  exception) {
+			
+			test.log(Status.SKIP, "Error: " + exception.getMessage());
+			exception.printStackTrace();
+			throw new SkipException("exception");
 		
+		
+
+		}
+	}
 	
-}
 }

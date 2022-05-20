@@ -72,8 +72,8 @@
 				<configuration>
 					<suiteXmlFiles>
 						<suiteXmlFile>testng.xml</suiteXmlFile>
-						<testFailureIgnore>true</testFailureIgnore>
-					</suiteXmlFiles>
+						</suiteXmlFiles>
+					<testFailureIgnore>true</testFailureIgnore>
 				</configuration>
 			</plugin>
 		</plugins>

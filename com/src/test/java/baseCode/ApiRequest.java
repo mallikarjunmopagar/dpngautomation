@@ -23,7 +23,7 @@ import com.aventstack.extentreports.Status;
 
 import extentlisteners.ExtentListeners;
 
-public class APIRequest extends ExtentListeners {
+public class ApiRequest extends ExtentListeners {
 
 	//private static FileInputStream request;
 	public static String ApiRequest1(String Trgtpath,String destination) throws SAXException, IOException {

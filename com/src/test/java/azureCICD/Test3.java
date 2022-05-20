@@ -22,7 +22,7 @@ public class Test3 extends CompareXMLFiles {
 		test.log(Status.INFO, "TestCase Name: " + k);
 
 		comparefiles(System.getProperty("user.dir") + "\\src\\test\\resources\\src\\" + i + ".xml",
-				APIRequest.ApiRequest1(System.getProperty("user.dir") + "\\src\\test\\resources\\trgt\\" + j + ".xml",k); 
+				APIRequest.ApiRequest1(System.getProperty("user.dir") + "\\src\\test\\resources\\trgt\\" + j + ".xml",k)); 
 
 		test.log(Status.INFO, "Total No of actual differences after filtering: " + NoOfDifferences);
 

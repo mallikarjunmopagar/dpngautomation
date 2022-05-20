@@ -102,7 +102,7 @@ public class ApiRequest extends ExtentListeners {
 				
 					    String str = response.toString();
 					    String destination="xyz";
-						BufferedWriter writer = new BufferedWriter(new FileWriter(System.getProperty("user.dir")+"\\src\\test\\resources\\TO_BE_XMLs\\" +destination +"."+"xml"));
+						BufferedWriter writer = new BufferedWriter(new FileWriter(System.getProperty("user.dir")+"\\src\\test\\resources\\trgt\\" +destination +"."+"xml"));
 					    writer.write(str);
 					    
 					    writer.close();

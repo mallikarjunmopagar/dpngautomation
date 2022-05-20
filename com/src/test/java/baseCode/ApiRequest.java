@@ -93,16 +93,12 @@ public class ApiRequest extends ExtentListeners {
 				
 				inputStream.close();
 
-				//System.out.println("Response= " + response.toString());
+				System.out.println("Response= " + response.toString());
 	          
 				//public void whenWriteStringUsingBufferedWritter_thenCorrect() 
 					//	  throws IOException {
 				
-			/*	creating datetime directory
-				String dateTime = new DateTime().toString("dd-MM-yy HH:mm:ss");
-				File f = new File("C:\\tmp\\" + dateTime);
-				f.mkdir();
-				*/
+			
 				final String directory = LocalDate.now().toString();
 				File index = new File(System.getProperty("user.dir")+"\\src\\test\\resources\\"+directory);
 				if (!index.exists())
@@ -143,27 +139,6 @@ public class ApiRequest extends ExtentListeners {
 			E2.printStackTrace();
 			throw new SkipException("HTTP error");
 
-		}catch (FileNotFoundException|NoSuchFileException e) {
-			test.log(Status.SKIP, "API Request File Not Found: " + Trgtpath);
-			
-			e.printStackTrace();
-			throw new SkipException("API File Not Found");
-
-		} catch (NullPointerException   n2) {
-			test.log(Status.SKIP, "The Target filepath given is NULL: " + Trgtpath);
-			test.log(Status.SKIP, "Error: " + n2.getMessage());
-			n2.printStackTrace();
-			throw new SkipException("Null Pionter Exception");
-
-		}catch (Exception  exception) {
-			
-			test.log(Status.SKIP, "Error: " + exception.getMessage());
-			exception.printStackTrace();
-			throw new SkipException("exception");
-		
-		
-
 		}
-	}
 	
 }

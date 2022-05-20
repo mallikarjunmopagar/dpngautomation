@@ -31,9 +31,9 @@ import org.testng.annotations.Test;
 
 import org.xml.sax.SAXException;
 
-public class ApiRequest {
+public class ApiRequest extends ExtentListeners {
 
-	public static void ApiRequest1(String srcpath,String destination) throws SAXException, IOException {
+	public static void main(String[] args) throws SAXException, IOException {
 
 	/*	XMLUnit.setIgnoreWhitespace(true);
 		XMLUnit.setIgnoreAttributeOrder(true);
@@ -91,7 +91,7 @@ public class ApiRequest {
 			inputStream.close();
 
 			System.out.println("Response= " + response.toString());
-          
+                       test.log(Status.INFO, " Api Response status : "+responseStatus);
 			//public void whenWriteStringUsingBufferedWritter_thenCorrect() 
 				//	  throws IOException {
 			try {

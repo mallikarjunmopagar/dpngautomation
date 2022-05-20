@@ -15,7 +15,7 @@
 			<class name="azureCICD.Test2" />
 		</classes>
 	</test>
-	<test name="Test3" enabled="false">
+	<test name="Test3" enabled="true">
 		<classes>
 			<class name="azureCICD.Test3" />
 		</classes>
@@ -35,7 +35,7 @@
 			<class name="azureCICD.Test6CSV" />
 		</classes>
 	</test>
-	<test name="Test7" enabled="true">
+	<test name="Test7" enabled="false">
 		<classes>
 			<class name="baseCode.ApiRequest" />
 		</classes>

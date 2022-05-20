@@ -17,12 +17,12 @@ public class Test3 extends CompareXMLFiles {
 	@Test(dataProvider = "dp", enabled = true)
 	public void testcaseimplement3(String i, String j, String k) throws Exception {
 
-		test.assignAuthor("Team2").assignCategory("REGRESSION").assignDevice("XML");
+		test.assignAuthor("myteam").assignCategory("REGRESSION").assignDevice("XML");
 
 		test.log(Status.INFO, "TestCase Name: " + k);
 
 		comparefiles(System.getProperty("user.dir") + "\\src\\test\\resources\\src\\" + i + ".xml",
-				System.getProperty("user.dir") + "\\src\\test\\resources\\trgt\\" + j + ".xml"); 
+				APIRequest.ApiRequest1(System.getProperty("user.dir") + "\\src\\test\\resources\\trgt\\" + j + ".xml",k); 
 
 		test.log(Status.INFO, "Total No of actual differences after filtering: " + NoOfDifferences);
 

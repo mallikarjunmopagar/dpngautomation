@@ -35,7 +35,7 @@ public class Test3 extends CompareXMLFiles {
 	@DataProvider(name = "dp")
 	public Object[][] getdata() throws IOException, CsvException {
 
-		return ReadXMLFilePathFromCSV2.ReadPaths("testDataworktype2");
+		return ReadXMLFilePathFromCSV.ReadPaths("testDataworktype2");
 	}
 
 }

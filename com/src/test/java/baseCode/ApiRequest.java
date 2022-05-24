@@ -43,7 +43,7 @@ public class ApiRequest extends ExtentListeners {
 				//System.out.println(request);
 			//String request = "<soapenv:Envelope xmlns:soapenv=\\\"http://schemas.xmlsoap.org/soap/envelope/\\\" xmlns:hs=\\\"http://www.holidaywebservice.com/HolidayService_v2/\\\"><soapenv:Body><hs:GetHolidaysForMonth><hs:year>2018</hs:year><hs:countryCode>UnitedStates</hs:countryCode><hs:month>11</hs:month></hs:GetHolidaysForMonth></soapenv:Body></soapenv:Envelope>";
               
-				URL url = new URL("https://mockbin.com/bin/193f9448-2924-4ff2-be33-a91b43532ea9/view");
+				URL url = new URL("https://mockbin.com/bin/af56a9f6-45ce-401b-baa9-0a398263e463/view");
 				//http://mockbin.com/request?foo=bar&foo=baz
 				//https://mockbin.com/bin/79252c8f-8b6d-4cb3-a788-fdd08f6c7eee/view
 				//http://mockbin.com/bin/471987de-5663-4280-a354-ac0784a93958/view

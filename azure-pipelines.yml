@@ -39,7 +39,7 @@ steps:
     targetType: 'inline'
     script: |
       $Username = "mallikarjunmopagar@gmail.com";
-      $Password = "India@2020";
+      $Password = "qqvmntxhygxxnpbb";
       $path = "$(System.ArtifactsDirectory)/MyBuildOutputsr'/com/test-output/emailable-report.html";
       
       function Send-ToEmail([string]$email, [string]$attachmentpath) {

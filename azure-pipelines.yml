@@ -40,7 +40,7 @@ steps:
     script: |
       $Username = "mallikarjunmopagar@gmail.com";
       $Password = "India@2020";
-      $path = "$(System.ArtifactsDirectory)/MyBuildOutputsr'/com/*.html";
+      $path = "$(System.ArtifactsDirectory)/MyBuildOutputsr'/com/test-output/emailable-report.html";
       
       function Send-ToEmail([string]$email, [string]$attachmentpath) {
       

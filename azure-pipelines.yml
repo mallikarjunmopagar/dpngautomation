@@ -29,13 +29,18 @@ steps:
   inputs:
         pathToPublish: $(Build.ArtifactStagingDirectory)
         artifactName: MyBuildOutputsr'
+- task: DownloadBuildArtifacts@0
+  inputs:
+    buildType: 'current'
+    downloadType: 'specific'
+    downloadPath: '$(System.ArtifactsDirectory)'
 - task: PowerShell@2
   inputs:
     targetType: 'inline'
     script: |
       $Username = "mallikarjunmopagar@gmail.com";
       $Password = "India@2020";
-      $path = "$(Build.ArtifactStagingDirectory)";
+      $path = "$(System.ArtifactsDirectory)\specific\*";
       
       function Send-ToEmail([string]$email, [string]$attachmentpath) {
       

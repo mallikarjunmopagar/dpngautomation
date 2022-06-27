@@ -33,6 +33,7 @@ steps:
   inputs:
     buildType: 'current'
     downloadType: 'specific'
+    artifactName: 'azureInventory'
     downloadPath: '$(System.ArtifactsDirectory)'
 - task: PowerShell@2
   inputs:
@@ -40,7 +41,7 @@ steps:
     script: |
       $Username = "mallikarjunmopagar@gmail.com";
       $Password = "India@2020";
-      $path = "$(System.ArtifactsDirectory)\specific\*";
+      $path = "$(System.ArtifactsDirectory)/azureInventory/*";
       
       function Send-ToEmail([string]$email, [string]$attachmentpath) {
       

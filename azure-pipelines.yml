@@ -29,3 +29,33 @@ steps:
   inputs:
         pathToPublish: $(Build.ArtifactStagingDirectory)
         artifactName: MyBuildOutputsr'
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: |
+      $Username = "mallikarjunmopagar@gmail.com";
+      $Password = "India@2020";
+      $path = "$(Build.ArtifactStagingDirectory)";
+      
+      function Send-ToEmail([string]$email, [string]$attachmentpath) {
+      
+          $message = new-object Net.Mail.MailMessage;
+          $message.From = "mallikarjunmopagar@gmail.com";
+          $message.To.Add($email);
+          $message.Subject = "DPNG Automation report";
+          $message.Body = "<html>
+                          <header> DPNG Autonmation report </header>
+                          <body>$TestStatus
+                                </body>
+                                </html>  ";
+          $attachment = New-Object Net.Mail.Attachment($attachmentpath);
+          $message.Attachments.Add($attachment);
+      
+          $smtp = new-object Net.Mail.SmtpClient("smtp.gmail.com", "587");
+          $smtp.EnableSSL = "true";
+          $smtp.Credentials = New-Object System.Net.NetworkCredential($Username, $Password);
+          $smtp.send($message);
+          write-host "Mail Sent" ; 
+          $attachment.Dispose();
+      }
+      Send-ToEmail  -UseSsl -email "mallu.mopagar@gmail.com" -attachmentpath $path;

@@ -48,11 +48,11 @@ steps:
           $message.From = "mallikarjunmopagar@gmail.com";
           $message.To.Add($email);
           $message.Subject = "DPNG Automation report";
-          $message.Body = "<html>
-                          <header> DPNG Autonmation report </header>
-                          <body>$TestStatus
-                                </body>
-                                </html>  ";
+          $message.Body = "Hi Team
+                            
+                            Please find the DPNG automation for XML comp
+                            
+                            Thanks, ";
           $attachment = New-Object Net.Mail.Attachment($attachmentpath);
           $message.Attachments.Add($attachment);
       
